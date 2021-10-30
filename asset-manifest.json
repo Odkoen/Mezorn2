@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Mezorn/static/css/main.a888f0c8.chunk.css",
+    "main.js": "/Mezorn/static/js/main.7ee7b817.chunk.js",
+    "main.js.map": "/Mezorn/static/js/main.7ee7b817.chunk.js.map",
+    "runtime-main.js": "/Mezorn/static/js/runtime-main.6235f2ee.js",
+    "runtime-main.js.map": "/Mezorn/static/js/runtime-main.6235f2ee.js.map",
+    "static/js/2.243e7ad5.chunk.js": "/Mezorn/static/js/2.243e7ad5.chunk.js",
+    "static/js/2.243e7ad5.chunk.js.map": "/Mezorn/static/js/2.243e7ad5.chunk.js.map",
+    "static/js/3.7e46c33e.chunk.js": "/Mezorn/static/js/3.7e46c33e.chunk.js",
+    "static/js/3.7e46c33e.chunk.js.map": "/Mezorn/static/js/3.7e46c33e.chunk.js.map",
+    "index.html": "/Mezorn/index.html",
+    "static/css/main.a888f0c8.chunk.css.map": "/Mezorn/static/css/main.a888f0c8.chunk.css.map",
+    "static/js/2.243e7ad5.chunk.js.LICENSE.txt": "/Mezorn/static/js/2.243e7ad5.chunk.js.LICENSE.txt",
+    "static/media/lady.0893624e.JPG": "/Mezorn/static/media/lady.0893624e.JPG",
+    "static/media/ts.2c43c34a.jpg": "/Mezorn/static/media/ts.2c43c34a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6235f2ee.js",
+    "static/js/2.243e7ad5.chunk.js",
+    "static/css/main.a888f0c8.chunk.css",
+    "static/js/main.7ee7b817.chunk.js"
+  ]
+}
