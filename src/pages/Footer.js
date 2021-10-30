@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div className="inset-x-0 sticky bottom-0 flex lg:flex md:hidden sm:hidden opacity-90">
+      <div className=" sticky bottom-0 flex lg:flex md:hidden sm:hidden opacity-90">
         <div className="flex flex-1 items-center  bg-gray-300 ">
           <p className="px-8 py-4 text-lg">
             {" "}

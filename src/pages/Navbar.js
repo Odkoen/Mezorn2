@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-const Navbar = (toggle, isOpen) => {
+import onClick from "react";
+const Navbar = ({ toggle, isOpen }) => {
   return (
     <div className="sticky top-0">
       <nav className=" flex flex-wrap items-center justify-between bg-white w-full p-4 z-0  shadow-sm">
@@ -12,8 +12,8 @@ const Navbar = (toggle, isOpen) => {
         </div>
         <div className="block lg:hidden">
           <button
-            className="p-2 border rounded-full text-gray-500 border-gray-500 hover:text-black hover:border-black"
             onClick={toggle}
+            className="p-2 border rounded-full text-gray-500 border-gray-500 hover:text-black hover:border-black"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -31,12 +31,18 @@ const Navbar = (toggle, isOpen) => {
             </svg>
           </button>
         </div>
-        <div className="hidden w-full pt-6  lg:items-center lg:w-auto sm:block lg:block lg:pt-0 ">
-          <ul className="font-semibold lg:flex lg:flex-1 ">
+        <div
+          className={
+            isOpen
+              ? "hidden w-full pt-6 lg:items-center lg:w-auto lg:block lg:pt-0"
+              : "block w-full pt-6 lg:items-center lg:w-auto lg:block lg:pt-0"
+          }
+        >
+          <ul className="font-semibold lg:flex lg:flex-1 md:flex md:flex-row  ">
             <li>
               <Link
                 to="/"
-                className=" py-2 px-4 border rounded focus:border-2 focus:border-blue-700 "
+                className=" py-2 px-4  rounded focus:border-2 focus:border-blue-700  "
               >
                 Get started for free
               </Link>
@@ -44,7 +50,7 @@ const Navbar = (toggle, isOpen) => {
             <li>
               <Link
                 to="/Feature"
-                className="infline-block py-2 px-4 border rounded focus:border-2 focus:border-blue-700"
+                className="py-2 px-4  rounded focus:border-2 focus:border-blue-700"
               >
                 Features
               </Link>
@@ -52,7 +58,7 @@ const Navbar = (toggle, isOpen) => {
             <li>
               <Link
                 to="/Pricing"
-                className="infline-block py-2 px-4 border rounded focus:border-2 focus:border-blue-700"
+                className=" py-2 px-4  rounded focus:border-2 focus:border-blue-700"
               >
                 Pricing
               </Link>
@@ -60,7 +66,7 @@ const Navbar = (toggle, isOpen) => {
             <li>
               <Link
                 to="/Login"
-                className="infline-block py-2 px-4 border rounded focus:border-2 focus:border-blue-700"
+                className=" py-2 px-4  rounded focus:border-2 focus:border-blue-700"
               >
                 Log In
               </Link>
